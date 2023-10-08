@@ -7,7 +7,7 @@ class ProductModel extends Model {
     protected $table = 'products';
     protected $returnType = 'object';
     protected $primaryKey = 'id';
-    protected $allowedFields = ['id', 'nama_product', 'description'];
+    protected $allowedFields = ['id', 'nama_product', 'description','harga'];
 
     // public function insertProduct($data){
     //     $query = "INSERT INTO products (nama_product, description) VALUES (?, ?)";
